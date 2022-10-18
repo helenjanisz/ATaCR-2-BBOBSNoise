@@ -22,6 +22,9 @@ TFdir = 'TRANSFUN_GOOD'; % station average transfer functions
 extable = 'OBS_Working4Paper.xlsx'; %location of organizational table, excel format, akin to TableS2, this needs to be compiled by the user on their own
 mattable = 'OBS_Working4Paper.mat'; %location of organizational table, matlab format
 
+flo_vec = 1./[10 20 100 200]; % main frequency bands for average trends
+fhi_vec = 1./[2 10 20 100];
+
 % Colors for station types, consistent throughout
 scg(1,:) = [166,206,227]; %SIO AB
 scg(2,:) = [255,127,0]; % WHOI ARRA
