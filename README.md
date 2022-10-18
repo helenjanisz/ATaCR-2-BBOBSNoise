@@ -19,3 +19,11 @@ smoothSpectrum_octave.m - used under MIT License from here: https://github.com/I
 
 Make_Dat_SepctraNoCorr.m, Make_Dat_SepctraTiltCorr.m, Make_Dat_SepctraCorr.m - scripts for taking output data from ATaCR and making it compatible as input data for spectra angle analysis (https://github.com/brennanbrunsvik/Ocean-bottom-seismometer-noise-clustering). 
 
+Figure Scripts (work in progress): 
+FIGURE_freqscatternoise.m. FIGURE_freqscatternoise_corr.m - Figure 8
+FIGURE_noisespec_depsuppinsttype.m, FIGURE_noisespec_depsuppinsttype_postremoval.m - Figures S3 - S7
+FIGURE_globalmap.m - Figure 1
+FIGURE_coherences, FIGURE_coherences_postremoval - Figures 4, S8
+
+
+
